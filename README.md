@@ -21,10 +21,13 @@ INSTALACIÓN
    git clone https://github.com/BrunoGarcia55531/API-REST.git
    cd API-REST
 
-3. Instalar dependencias:
-   npm install
+3. Inicializar package.json (si no existe en el repo):
+   npm init -y
 
-4. Crear la base de datos a partir del schema:
+4. Instalar dependencias:
+   npm install express sqlite3
+
+5. Crear la base de datos a partir del schema:
    sqlite3 products.db < schema.sql
 
 ------------------------------------------
@@ -64,3 +67,4 @@ Con la IP pública de tu instancia EC2, probar:
 
 - GET → http://<IP_PUBLICA>:3000/products/1
   Devuelve el producto creado.
+
