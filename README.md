@@ -21,7 +21,7 @@ INSTALACIÓN
    git clone https://github.com/BrunoGarcia55531/API-REST.git
    cd API-REST
 
-3. Inicializar package.json (si no existe en el repo):
+3. Inicializar package.json:
    npm init -y
 
 4. Instalar dependencias:
